@@ -4,7 +4,7 @@ public class Box<T extends Fruit> {
     private ArrayList<T> fruitsBox;
 
     public Box() {
-        fruitsBox = new ArrayList<T>();
+        fruitsBox = new ArrayList<>();
     }
 
     public float getWeight() {
